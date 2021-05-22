@@ -1,0 +1,413 @@
+.cover{
+    display: flex;
+    border: 1.5px solid gray;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.pageName{ 
+    width: 25%;
+    position: sticky;
+    top:0px;
+    left:0px;
+    border-right: 1px solid gray;
+}
+
+.tagdetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.tagsymbol{
+    color: rgb(206, 62, 110);
+    padding-right: 5px;
+}
+
+.vision{
+    font-weight: bolder;
+}
+
+.threeD{
+    font-weight: bolder;
+    color: blue;
+}
+
+.designers{
+    font-size: 8px;
+    font-weight: bold;
+    position: relative;
+    bottom: 8px;
+    color: rgb(255, 136, 0);
+}
+
+.ICONDetails{
+    display: flex;
+    align-items: center;
+    word-break: none;
+    margin-bottom: 8px;
+    border-Left: 4px solid white;
+    
+}
+
+.ICONS{
+    transform: scale(0.7);
+    margin-left: 3px;
+    margin-right: 4px;
+}
+
+.ICONName{
+    font-size: 10px;
+}
+
+.ShowPage{
+    border-right: 1px solid gray;
+     width: 75%;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.Navbar{
+    background: rgb(80, 80, 224);
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    left:0px;
+    align-items: center;
+    padding: 15px 0px;
+    z-index: 5;
+   
+}
+
+.Lookingclick{
+    color: white;
+    font-size: 10px;
+    position: relative;
+    left: 5%;
+}
+
+.clicking{
+    text-decoration-line: underline;
+}
+
+.Profileicologname{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5%;
+}
+
+
+.NAVICONS{
+    transform: scale(0.6);
+    color: white;
+}
+
+.profilepic{
+    width: 26px;
+    height: 26px;
+    border-radius: 18px;
+    margin: 0px 5px;
+    border: 1px solid white;
+}
+
+.Profilename{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+  
+}
+
+.profilelogout{
+    font-size: 8px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.NEWORDERPAGE{
+    padding-left: 5%;
+    z-index: -1;
+}
+
+.NewOrders{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.orderSearch{
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 5px;
+    width: 89%;
+    box-shadow: 0.1px -0.5px 0.1px rgb(202, 198, 198) , -0.1px -0.5px 0.1px rgb(202, 198, 198), 0.5px 0.5px 0.1px rgb(202, 198, 198), -0.5px 0.5px 0.1px rgb(202, 198, 198) ;
+}
+
+
+
+
+
+/*CSS for New Orders Page */
+.newOrderDETAILS{
+    width: 90%;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 1.3px -0px 2px rgb(202, 198, 198) , -1.3px -0px 2px rgb(202, 198, 198),  -0.5px 1.3px 2px rgb(202, 198, 198) ;
+    border-radius: 5px;
+    padding: 8px 0px;
+}
+
+.newOrderIconOffice{
+    display: flex;
+    align-items: center;
+    border-right: 1.5px solid rgb(202, 198, 198);
+   padding-right: 5px;
+}
+
+.OrderIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.OrderIDDetails{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.OrderIDValue {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.OfficeAddress, .Orderdate{
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.Orderdate{
+    opacity: 0.7;
+}
+
+.newOrderdetailpart2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6px;
+    padding-right: 6px;
+    border-right: 1.5px solid rgb(202, 198, 198);
+}
+
+.newOrderpart2{
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 2px;
+   
+}
+
+.AreaDetail{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: gray;
+     opacity: 0.7;
+    
+}
+
+.AreaDetailsign{
+    font-size: 15px;
+}
+
+.PAYMENTDetail{
+    color: rgb(34, 207, 34);
+}
+
+
+
+/*CSS for 3rd part of New Orders Page */
+
+.INTITIESandVIEW{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+}
+
+
+.INTITIES1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+       border: 1px solid rgb(34, 207, 34);
+       border-radius: 2px;
+       color: rgb(34, 207, 34);
+       padding : 4px 2px;
+       height: 6px;
+       transform: scale(1.5);
+       margin-right: 15px;
+}
+
+
+.INTITIES2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 4px;
+     border: 1px solid rgb(212, 20, 20);
+     border-radius: 2px;
+     color: rgb(212, 20, 20);
+     padding : 4px 4px;
+     height: 6px;
+     transform: scale(1.5);
+}
+
+.newviewmore{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(80, 80, 224);
+    opacity: 0.8;
+    margin-left: 9px;
+}
+
+
+
+
+/*CSS for Home Page */
+.ORDERHomePAGE{
+    z-index: -1;
+    padding-left: 5%;
+}
+
+.Orderscompongngnew{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.Ordecomplete{
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(19, 202, 19);
+    border-radius: 8px;
+    padding : 18px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.OrderscompongngnewsameICON{
+     transform: scale(1.5);
+     margin-right: 14px;
+     color: rgb(19, 202, 19);
+}
+
+.Orderscompongngnewsame{
+      font-weight: bold;
+}
+
+.Orderscompongngnewnumbsame{
+    font-size: 20px;
+   font-weight: bold;
+  
+}
+
+.Ordecomplete2{
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(80, 80, 224);
+    border-radius: 8px;
+    padding : 18px 33px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.OrderscompongngnewsameICON2{
+    transform: scale(1.5);
+    margin-right: 14px;
+    color: rgb(80, 80, 224);
+}
+
+.Ordecomplete3{
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(241, 184, 28);
+    border-radius: 8px;
+    padding : 18px 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.OrderscompongngnewsameICON3{
+    transform: scale(1.5);
+    margin-right: 14px;
+    color: rgb(241, 184, 28);
+}
+
+.DOWNNAV{
+    display: flex;
+   color: grey;
+   opacity: 0.9; 
+   margin-top: 14px;
+   border-bottom: 1px solid rgb(202, 198, 198);
+}
+
+.DOWNNAVoption{
+   padding-right: 8px;
+   padding-bottom: 5px;
+}
+
+
+
+
+/*CSS for ONGOING and Cancelled Option of Home Page */
+/*CSS for 3rd part of HOME Page */
+.INTITIESandONGOINGandtruetick{
+    display: flex;
+    align-items: center;
+}
+
+.INTITIESandONGOING{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.ongoingOrderpart2{
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.ongoingviewmore{
+    font-size: 9px;
+    font-weight: bold;
+    color: rgb(80, 80, 224);
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
